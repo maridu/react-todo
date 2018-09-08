@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.todo {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.todo__add {
+  display: flex;
+  align-items: center;
+}
+
+.todo__input {
+  flex-grow: 1;
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+
+.todo__add-btn {
+  padding: 5px 10px;
+}
+
+.todo__list {
+  padding: 0 0 0 18px;
+}
+
+.todo__item-inner {
+  display: flex;
+  align-items: center;
+}
+
+.todo__label {
+  flex-grow: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+}
